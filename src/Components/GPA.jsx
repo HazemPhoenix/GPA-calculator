@@ -29,15 +29,6 @@ function GPA() {
     setGPA(0);
   };
 
-  const subjects = {
-    "semester 1": [4, 4, 4, 3, 2, 2],
-    "Semester 2": [4, 4, 4, 3, 2, 2],
-    "Semester 3": [4, 4, 4, 4, 3],
-    "Semester 4": [5, 4, 4, 2, 3],
-    "Semester 5": [4, 4, 3, 3, 2, 2],
-    "Semester 6": [4, 4, 3, 3, 3, 2],
-  };
-
   return (
     <div>
       <form action="" onSubmit={submitHandler}>
